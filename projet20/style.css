@@ -1,0 +1,29 @@
+body{
+    background: rgb(179, 187, 187);
+}
+
+h1{
+    text-align: center;
+}
+
+
+.wrap{
+    display: flex;
+    text-align: center;
+    background-color: black;
+    width: 252px;
+    box-shadow: -1px 3px 20px 8px;
+    border-radius: 10px;
+    margin-left: 43%;
+    margin-top: 5%;
+}
+
+input {
+    margin: 10px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.box{
+    width: 200px; 
+}
