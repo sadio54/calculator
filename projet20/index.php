@@ -33,12 +33,13 @@
             <br><br>
 
             <input type="button" value="0" onclick="addToDisplay('0')">
-            <input type="button" value="=" onclick="calculate()">
+            <input type="button" value="." onclick="addToDisplay('.')">
             <input type="button" value="%" onclick="addToDisplay('%')">
             <input type="button" value="/" onclick="addToDisplay('/')">
             <br><br>
 
             <input type="button" value="Effacer" id="del" onclick="clearDisplay()">
+            <input type="button" value="=" onclick="calculate()">
 
         </form>
     </div>
